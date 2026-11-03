@@ -1,0 +1,21 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+Write a short bio here. Who you are, what you study, what you write about.
+
+Contact: your-email@example.com
+
+---title: Your Name
+description: Reflections on development, education and international cooperation
+theme: minima
+url: ""
+baseurl: ""
+show_excerpts: true
+header_pages:
+  - about.md
+
+layout: home
+---
