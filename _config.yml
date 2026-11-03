@@ -6,4 +6,6 @@ baseurl: ""
 show_excerpts: true
 
 header_pages:
+  - posts.md
   - about.md
+  - photos.md
