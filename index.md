@@ -14,9 +14,8 @@ title: Home
 </style>
 <div class="hero">
 <h1>Thu Trang HA - Paige</h1>
-<p class="role">MA student in Local Development, University of Padua</p>
+<p class="role">MSc student in Local Development, University of Padua</p>
 <p>I study how places develop and who gets to decide what development means. My interests are inequality, migration, education, and the relationship between people and places.</p>
-<p>Here I share <a href="{{ '/posts/' | relative_url }}">notes and reflections</a> from my studies, and <a href="{{ '/photos/' | relative_url }}">photographs</a> from my everyday life.</p>
 <div class="links">
 <a href="{{ '/posts/' | relative_url }}">Posts</a>
 <a href="{{ '/about/' | relative_url }}">About me</a>
@@ -24,3 +23,13 @@ title: Home
 <a href="mailto:thutrang.ha@studenti.unipd.it">Email</a>
 </div>
 </div>
+
+<h2>Latest posts</h2>
+<ul class="post-list">
+{% for post in site.posts %}
+<li>
+<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+</li>
+{% endfor %}
+</ul>
