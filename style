@@ -1,0 +1,87 @@
+assets/css/style.scss---
+---
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap");
+
+// Đổi màu chủ đạo ở đây. Gợi ý: #1f4e5f (xanh teal), #1d3557 (xanh navy), #7b2d3b (đỏ rượu vang)
+$brand-color: #1f4e5f;
+
+$base-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$base-font-size: 17px;
+$base-line-height: 1.75;
+$text-color: #2a2a2a;
+$background-color: #faf8f5;
+$grey-color: #7a7a7a;
+$grey-color-light: #e6e1d9;
+$grey-color-dark: #4a4a4a;
+$content-width: 780px;
+
+@import "minima";
+
+h1, h2, h3, h4, .site-title, .post-title, .post-link {
+  font-family: "Lora", Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+a {
+  color: $brand-color;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  &:hover { text-decoration-thickness: 2px; color: $brand-color; }
+}
+
+.site-title, .site-nav .page-link, .post-link {
+  text-decoration: none;
+}
+
+.site-header {
+  border-top: 4px solid $brand-color;
+  border-bottom: none;
+}
+.site-title, .site-title:visited {
+  color: $brand-color;
+  font-size: 1.6rem;
+}
+.site-nav .page-link {
+  color: $grey-color-dark;
+  font-weight: 500;
+  &:hover { color: $brand-color; }
+}
+
+.post-list-heading {
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: $grey-color;
+}
+.post-list > li {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid $grey-color-light;
+  &:last-child { border-bottom: none; }
+}
+.post-link { font-size: 1.7rem; line-height: 1.3; }
+.post-meta {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $grey-color;
+}
+
+.post-title { font-size: 2.3rem; line-height: 1.25; }
+.post-content h2 { font-size: 1.6rem; margin-top: 2.5rem; }
+.post-content p { margin-bottom: 1.3rem; }
+
+blockquote {
+  border-left: 3px solid $brand-color;
+  color: $grey-color-dark;
+  font-family: "Lora", Georgia, serif;
+  font-style: italic;
+}
+
+.site-footer {
+  border-top: 1px solid $grey-color-light;
+  margin-top: 2rem;
+}
