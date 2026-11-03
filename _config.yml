@@ -1,0 +1,8 @@
+title: Your Name
+description: Reflections on development, education and international cooperation
+theme: minima
+url: ""
+baseurl: ""
+show_excerpts: true
+header_pages:
+  - about.md
