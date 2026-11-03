@@ -1,23 +1,20 @@
 ---
 layout: post
-title: "Phát triển Địa phương: Nhật ký Tự phản tư 1 (Tiếng Việt)"
+title: "Phát triển Địa phương: Suy ngẫm 1 (Tiếng Việt)"
 date: 2026-11-02
 lang: vi
 ---
 
 *English: [read the English version](/2026/11/02/local-development-reflection-1.html)*
 
-Dưới đây là bản dịch tiếng Việt của bài viết:
-
----
 
 ## Phát triển Địa phương: Nhật ký Tự phản tư 1
 
-### Tôi đang thực sự học gì?
+### Tôi đang học gì?
 
 Sau vài tuần học ngành Phát triển Địa phương (Local Development), tôi nghĩ có lẽ đây là thời điểm thích hợp để bắt đầu ghi lại những gì mình đang học, những khái niệm khiến tôi phải dừng lại suy ngẫm, và cả những câu hỏi mà tôi vẫn chưa tìm ra lời giải đáp.
 
-Tôi từng nghĩ đến việc viết các tóm tắt академи (viết tóm tắt học thuật) sau mỗi khóa học hay học phần, đi kèm các tài liệu tham khảo và mọi lý thuyết liên quan. Tuy nhiên, tôi muốn giữ cho không gian này mang tính cá nhân hơn một chút. Tôi không chỉ muốn chia sẻ những gì mình học được, mà cả cách tôi hiểu, hoài nghi, và đôi khi là trăn trở với nó.
+Tôi từng nghĩ đến việc viết các tóm tắt học thuật sau mỗi khóa học hay học phần, đi kèm các tài liệu tham khảo và mọi lý thuyết liên quan. Tuy nhiên, tôi muốn giữ cho không gian này mang tính cá nhân hơn một chút. Tôi không chỉ muốn chia sẻ những gì mình học được, mà cả cách tôi hiểu, hoài nghi, và đôi khi là trăn trở với nó.
 
 Vậy nên, hãy bắt đầu bằng một câu hỏi đơn giản:
 
