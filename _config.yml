@@ -1,8 +1,9 @@
-title: Your Name
-description: Reflections on development, education and international cooperation
+title: "Thu Trang HA - Paige"
+description: "A collection of notes and reflections throughout my studies."
 theme: minima
 url: ""
 baseurl: ""
 show_excerpts: true
+
 header_pages:
   - about.md
