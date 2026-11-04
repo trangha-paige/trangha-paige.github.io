@@ -8,8 +8,10 @@ permalink: /about/
 body { overflow-x: hidden; }
 .site-header { position: absolute; top: 0; left: 0; right: 0; z-index: 30; background: transparent; }
 .page-content { padding-top: 0; }
-.cover { width: 100vw; margin-left: calc(50% - 50vw); height: 400px; background-color: var(--olive); background-size: cover; background-position: center; margin-bottom: 2.5rem; }
-.cover-inner { width: min(1100px, 96vw); height: 100%; margin: 0 auto; display: flex; align-items: flex-end; padding-bottom: 2rem; }
+.cover { position: relative; width: 100vw; margin-left: calc(50% - 50vw); height: 400px; background: var(--olive); overflow: hidden; margin-bottom: 2.5rem; }
+.cover img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.cover::after { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(47,48,32,.45); }
+.cover-inner { position: relative; z-index: 2; width: min(1100px, 96vw); height: 100%; margin: 0 auto; display: flex; align-items: flex-end; padding-bottom: 2rem; }
 .cover h1 { color: var(--light); font-size: 3rem; margin: 0; }
 .about-photos { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 2.5rem 0; }
 .about-photos figure { margin: 0; }
@@ -18,7 +20,8 @@ body { overflow-x: hidden; }
 @media (max-width: 600px) { .cover { height: 300px; } .cover h1 { font-size: 2.2rem; } }
 </style>
 
-<div class="cover" style="background-image: linear-gradient(rgba(47,48,32,.55), rgba(47,48,32,.55)), url({{ '/assets/about-cover.jpg' | relative_url }});">
+<div class="cover">
+<img src="{{ '/assets/about-cover.jpg' | relative_url }}" alt="" onerror="this.style.display='none'">
 <div class="cover-inner"><h1>About me</h1></div>
 </div>
 
