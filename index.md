@@ -5,13 +5,13 @@ title: Home
 
 <style>
 .hero { width: min(1100px, 96vw); position: relative; left: 50%; transform: translateX(-50%); display: grid; grid-template-columns: 1.15fr 1fr; gap: 3rem; align-items: center; margin: 2rem 0 3rem; }
-.hero-photo { background: #DED7C9; min-height: 560px; border-radius: 4px; overflow: hidden; }
+.hero-photo { background: var(--olive); min-height: 560px; border-radius: 4px; overflow: hidden; }
 .hero-photo img { width: 100%; height: 560px; object-fit: cover; display: block; }
-.hero-text .role { color: #898274; margin: 0 0 1.2rem; }
+.hero-text .role { font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-size: .85rem; margin: 0 0 1.2rem; }
 .hero-text p { margin: 0 0 1rem; }
 .links { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.4rem; }
-.links a { display: inline-block; padding: .45rem 1.1rem; border: 1.5px solid #344B38; border-radius: 999px; font-size: .9rem; font-weight: 500; text-decoration: none; }
-.links a:hover { background: #344B38; color: #fff; }
+.page-content .links a, .page-content .links a:visited { display: inline-block; padding: .5rem 1.3rem; background: var(--dark); color: var(--light); border-radius: 999px; font-size: .95rem; font-weight: 700; text-decoration: none; }
+.page-content .links a:hover { background: var(--orange); color: var(--dark); }
 @media (max-width: 800px) { .hero { grid-template-columns: 1fr; gap: 1.5rem; } .hero-photo, .hero-photo img { min-height: 340px; height: 340px; } }
 </style>
 <div class="hero">
