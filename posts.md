@@ -21,7 +21,8 @@ body { overflow-x: hidden; }
 <div class="cover-inner"><h1>Posts</h1></div>
 </div>
 
-This is where I collect notes and reflections from my studies, readings, and conversations, as well as questions that keep me thinking beyond the classroom. Some posts are brief thoughts, while others are attempts to explore an idea in more depth. I write in English to share my thoughts with colleagues and a wider international audience, and in Vietnamese to connect with readers back home and express certain ideas in my own language. Some posts are in both languages.
+This is where I collect notes and reflections from my studies, readings, and conversations, as well as questions that keep me thinking beyond the classroom. My writing mainly explores ideas and debates around development, including power, inequality, migration, climate change, education, and the relationships between people and places. I write in English to share my thoughts with colleagues and a wider international audience, and in Vietnamese to connect with readers back home and express certain ideas in my own language.
+Đây là nơi tôi ghi lại những ghi chú và suy ngẫm từ việc học, những gì tôi đọc và các cuộc trò chuyện, cùng những câu hỏi vẫn tiếp tục khiến tôi suy nghĩ sau giờ học. Nội dung chủ yếu xoay quanh các ý tưởng và tranh luận về phát triển, bao gồm quyền lực, bất bình đẳng, di cư, biến đổi khí hậu, giáo dục và mối quan hệ giữa con người với nơi chốn. Tôi viết bằng tiếng Anh để chia sẻ suy nghĩ với bạn bè, đồng nghiệp và độc giả quốc tế, và bằng tiếng Việt để kết nối với độc giả ở "nhà", cũng như diễn đạt một số suy nghĩ bằng ngôn ngữ của chính mình.
 
 <ul class="post-list">
   {% for post in site.posts %}
