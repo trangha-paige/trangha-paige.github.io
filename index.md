@@ -17,7 +17,7 @@ title: Home
 </style>
 <div class="hero">
 <div class="hero-photo">
-<img src="{{ '/assets/profilee.jpg' | relative_url }}" alt="Thu Trang HA" onerror="this.style.display='none'">
+<img src="{{ '/assets/profileee.jpg' | relative_url }}" alt="Thu Trang HA" onerror="this.style.display='none'">
 </div>
 <div class="hero-text">
 <h1>Thu Trang HA - Paige</h1>
