@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Phát triển Địa phương: Suy ngẫm 1 (Tiếng Việt)"
+title: "Phát triển Địa phương: Suy ngẫm 1"
 date: 2026-11-02
 lang: vi
 ---
@@ -8,7 +8,6 @@ lang: vi
 *English: [read the English version](/2026/11/02/local-development-reflection-1.html)*
 
 
-## Phát triển Địa phương: Nhật ký Tự phản tư 1
 
 ### Tôi đang học gì?
 
