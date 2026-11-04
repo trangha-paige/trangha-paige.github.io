@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "C/artographies"
+title: "Cartographies"
 permalink: /cartographies/
 ---
 
