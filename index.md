@@ -6,7 +6,7 @@ title: Home
 <style>
 .hero { width: min(1100px, 96vw); position: relative; left: 50%; transform: translateX(-50%); display: grid; grid-template-columns: 1.15fr 1fr; gap: 3rem; align-items: center; margin: 2rem 0 3rem; }
 .hero-photo { background: var(--olive); min-height: 560px; border-radius: 4px; overflow: hidden; }
-.hero-photo img { width: 100%; height: 560px; object-fit: cover; object-position: center 20%; display: block; }
+.hero-photo img { width: 100%; height: 560px; object-fit: cover; object-position: center 30%; display: block; }
 .hero-text h1 { font-family: "Special Elite", "Courier New", Courier, monospace; font-weight: 400; font-size: 2.4rem; line-height: 1.2; letter-spacing: 0; margin: 0 0 .6rem; }
 .hero-text .role { font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-size: .85rem; margin: 0 0 1.2rem; }
 .hero-text p { margin: 0 0 1rem; }
