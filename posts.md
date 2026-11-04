@@ -17,7 +17,7 @@ body { overflow-x: hidden; }
 </style>
 
 <div class="cover">
-<img src="{{ '/assets/posts-cover.jpg' | relative_url }}" alt="" onerror="this.style.display='none'">
+<img src="{{ '/assets/posts-coverr.jpg' | relative_url }}" alt="" onerror="this.style.display='none'">
 <div class="cover-inner"><h1>Posts</h1></div>
 </div>
 
